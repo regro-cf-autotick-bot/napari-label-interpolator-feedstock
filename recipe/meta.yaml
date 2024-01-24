@@ -20,11 +20,11 @@ requirements:
     - python >=3.8
     - setuptools-scm
   run:
-    - dask-core # Imported but not declared as dependency
+    - dask-core     # Imported but not declared as dependency
     - edt
     - magicgui
-    - napari    # Imported but not declared as dependency
-    - numpy     # Imported but not declared as dependency
+    - napari        # Imported but not declared as dependency
+    - numpy         # Imported but not declared as dependency
     - python >=3.8
 
 test:
@@ -37,10 +37,11 @@ test:
     - pip
 
 about:
-  home: https://github.com/brisvag/napari-label-interpolator
+  home: https://pypi.org/project/napari-label-interpolator
   summary: A napari plugin to interpolate any number of (n-1)d-labels across a single dimension.
   license: GPL-3.0-only
   license_file: LICENSE
+  dev_url: https://github.com/brisvag/napari-label-interpolator
 
 extra:
   recipe-maintainers:
