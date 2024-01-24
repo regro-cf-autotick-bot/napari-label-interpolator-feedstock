@@ -20,8 +20,11 @@ requirements:
     - python >=3.8
     - setuptools-scm
   run:
+    - dask-core # Imported but not declared as dependency
     - edt
     - magicgui
+    - napari    # Imported but not declared as dependency
+    - numpy     # Imported but not declared as dependency
     - python >=3.8
 
 test:
